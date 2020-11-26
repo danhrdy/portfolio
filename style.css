@@ -65,11 +65,14 @@ body {
 .welcome {
   padding: 2rem 3rem 2rem;
   margin: 6rem 3rem 2rem;
-  font-size: 3rem;
   color: white;
   background-color: rgba(87, 87, 87, 0.41);
   max-width: 65%;
   font-size: 3.5vw;
+}
+
+.welcome h1 {
+  font-size: 1.5em;
 }
 
 #description span {
@@ -91,7 +94,7 @@ body {
   text-align: justify;
 }
 
-.container-bio h2 {
+.container-bio h1 {
   padding-bottom: 5%;
 }
 
@@ -126,6 +129,25 @@ body {
   height: auto;
   margin: auto;
   background-color: rgba(87, 87, 87, 0.41);
+  color: white;
+}
+
+.work-page a {
+  color: inherit;
+}
+
+.work-page a:hover {
+  color: black;
+  text-shadow: 3px 3px 16px #000;
+}
+
+.work-page h1 {
+  padding: 2%;
+}
+
+.work-page p {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .container-work {
@@ -160,7 +182,7 @@ body {
   max-width: 100%;
 }
 
-.container-contact h2 {
+.container-contact h1 {
   padding-bottom: 5%;
 }
 
